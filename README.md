@@ -48,6 +48,8 @@ handleCommand(BaseCommandMap);
 Try running the following commands from inside the repo folder:
 
 ```bash
+yarn
+yarn build
 yarn start hello
 yarn start help
 yarn start hello --silent
