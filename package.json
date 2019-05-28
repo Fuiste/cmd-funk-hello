@@ -1,6 +1,6 @@
 {
   "name": "cmd-funk-hello",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A cmd-funk hello world",
   "main": "bin/index.js",
   "bin": {
