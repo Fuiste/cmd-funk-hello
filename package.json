@@ -3,6 +3,15 @@
   "version": "0.0.2",
   "description": "A cmd-funk hello world",
   "main": "bin/index.js",
+  "bin": {
+    "cmd-funk-hello": "run"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node bin/index.js"
+  },
   "repository": "https://github.com/Fuiste/cmd-funk-hello.git",
   "author": "Rudy Pelrine <drawncloser@gmail.com>",
   "license": "MIT",
