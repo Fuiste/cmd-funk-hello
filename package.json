@@ -1,0 +1,16 @@
+{
+  "name": "cmd-funk-hello",
+  "version": "0.0.1",
+  "description": "A cmd-funk hello world",
+  "main": "bin/index.js",
+  "repository": "https://github.com/Fuiste/cmd-funk-hello.git",
+  "author": "Rudy Pelrine <drawncloser@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.0.2",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "cmd-funk": "^0.1.5"
+  }
+}
